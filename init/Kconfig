@@ -1876,6 +1876,10 @@ config KALLSYMS_ABSOLUTE_PERCPU
 
 # end of the "standard kernel features (expert users)" menu
 
+config DUMMY_SYSCALL
+	bool
+	default y
+
 config ARCH_HAS_MEMBARRIER_CALLBACKS
 	bool
 
