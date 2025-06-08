@@ -70,6 +70,7 @@ obj-$(CONFIG_JBD2)		+= jbd2/
 obj-$(CONFIG_CRAMFS)		+= cramfs/
 obj-$(CONFIG_SQUASHFS)		+= squashfs/
 obj-y				+= ramfs/
+obj-y				+= mc504fs/
 obj-$(CONFIG_HUGETLBFS)		+= hugetlbfs/
 obj-$(CONFIG_CODA_FS)		+= coda/
 obj-$(CONFIG_MINIX_FS)		+= minix/
